@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #c1b5ad;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: brown;
+  color: lightblue;
+  font-size: 16px;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+}
+
+#body-container {
+  display: flex;
+}
+
+#right-container {
+  width: 450px;
+  height: 100vh;
+  background-color: grey;
+  z-index: 2;
+  padding: 10px;
+}
+
+button {
+  display: inline;
+  color: blue;
+}
+
+.iconSelector ul {
+  list-style: none;
+  background-color: whitesmoke;
+}
+
+h2 {
+  background-color: orange;
+}
+
+.itinerary {
+  background-color: whitesmoke;
+}
+
+.itinerary-container {
+  background-color: whitesmoke;
+}
